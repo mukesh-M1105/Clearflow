@@ -1,0 +1,23 @@
+{
+  "name": "clearflow-platform",
+  "version": "1.0.0",
+  "description": "ClearFlow - AI-Powered Payment Revenue Recovery Platform",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "server": "node server/src/server.js",
+    "client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "build": "npm run build --prefix client",
+    "test": "node server/test_engines.js && node server/test_e2e.js"
+  },
+  "keywords": [
+    "fintech",
+    "revenue-recovery",
+    "react",
+    "express",
+    "postgresql",
+    "hackathon"
+  ],
+  "author": "ClearFlow Team",
+  "license": "ISC"
+}

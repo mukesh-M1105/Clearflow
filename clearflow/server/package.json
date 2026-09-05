@@ -1,0 +1,32 @@
+{
+  "name": "clearflow-server",
+  "version": "1.0.0",
+  "description": "ClearFlow - AI-Powered Payment Revenue Recovery Platform Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/database/seed.js"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.2.14",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "csv-stringify": "^6.5.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.0"
+  },
+  "keywords": [
+    "fintech",
+    "payment-recovery",
+    "express",
+    "postgresql"
+  ],
+  "author": "ClearFlow Team",
+  "license": "ISC"
+}
